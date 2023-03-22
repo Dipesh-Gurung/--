@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="mailto:gurungdipesh625@gmail.com" method="post" enctype="text/plain">
+        <h3><u>Message</u></h3>
+
+        <label>First Name:<input type="text" name="text" placeholder="first name" required=""></label>
+        <label>Last Name:<input type="text" name="text" placeholder="last name" required=""></label><br><br>
+        <label>&nbsp;&nbsp;&nbsp;Email:</label>
+        <input type="text" name="email" value="" placeholder="abc@gmail.com" required="@">
+        <label >&nbsp;&nbsp;&nbsp;Password:<input type="password" name="password" placeholder="password" required=".{8,16}"></label><br><br>
+        <label>Gender</label><br>
+        <label>Male:<input type="radio" name="gender" value="male" required="">|</label>
+        <label>Female:<input type="radio" name="gender" value="female"  >|</label>
+        <label>Other:<input type="radio" name="gender" value="other"></label><br><br>
+        <label>Phone number:<input type="tel" name="tel" placeholder="telephone number" requires=""></label>
+        <br><br>
+        <!-- <label>Your message:</label> -->
+        <!-- <textarea name="name" rows="3" cols="20"></textarea><br><br> -->
+        <!-- <input type="text" name="Your message" value="" required=""> -->
+        <label>I hereby agree all the terms and conditions <input type="checkbox" name="checkbox" placeholder="checkbox" required=""></label><br><br>
+        <label><input type="submit" value="submit" placeholder="submit" required=""></label>
+        <!-- <label>Date Of Birth:<input type="date" name="date" placeholder="date" required=""></label><br><br>
+        <label>Upload file<br><input type="file" name="file" placeholder="Choose a file" required=""></label><br><br>
+        <label>Range:<input type="range"  min="10" max="100"></in></label><br><br>
+        <label><input type="search" name="site search">
+        <button>search</button></label><br><br> -->
+    </form>
+</body>
+</html>

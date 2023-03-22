@@ -1,0 +1,110 @@
+body{
+    background-color: #183A1D;
+}
+h1{
+    text-align: center;
+    font-size:70px;
+    line-height: 100%;
+    letter-spacing: -2px;
+    color:#91cdd1;
+    
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    color: #d7f0f2;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.corpo{
+    position:fixed;
+    text-align: center;
+    left: 47%;
+    gap: 50%;
+    
+}
+div{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+table:hover{
+    background-color: blur();
+}
+.svelte-w483u5 {
+    line-height: 1.2;
+    padding-bottom: clamp(1rem,6%,3rem)
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+
+    /* background-color: #BBD6B8; */
+    
+  }
+
+  /* &nbsp */
+  .arrow{
+    border-radius: 10%;
+   
+  }
+  hr{
+    border-width: 4px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 40%;
+  }
+  .arrow2{
+    border-radius: 90%;
+  }
+  ul{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+.arrow3{
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.text{
+    text-align: center;
+    color: #d7f0f2;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* adjust the height as needed */
+  }
+  input { 
+    border-radius: 16px; 
+  } 
+form{
+    color:#d7f0f2;
+    align-items: center;
+    /* height: 250px;
+    width: 500px; */
+    transform: translateY(-3px);
+    text-align: center;
+    backdrop-filter: blur(60px);
+    /* display: flex; */
+    gap: 12px;
+    justify-content: center;
+}
