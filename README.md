@@ -1,1 +1,35 @@
-# --
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="corpo">
+        <div class="corpo" class="button" > <a href="work.html" class="no-underline" >About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://santatracker.google.com/" class="no-underline" class="button">Fun</a></div>
+        </div>
+    <br>
+    <h1 class="svelte-1vu264 tight">
+        <span slot="title" class="svelte-w483u5">
+            <span class="svelte-w483u5">Hi.I'm Dipésh.</span><br>
+            <span class="svelte-w483u5"><u>A Designer.</u></span>
+        </span>
+    </h1>
+    <h4><strong>I'm also a front-end and general designer that loves to create<br>fun,
+            accessible engaging UI that bring products to life.
+        </strong></h4>
+    <br><br>
+
+        <br>
+        <img src="3.png" alt="cute papaya" style="float: left; margin-right: 10px;" class="arrow"> <br><br><br><br><br><br>
+        <a href="work.html" class="no-underline">Skills</a><br><br>
+        <a href="form.html" class="no-underline">Message</a><br><br>
+        <a href="https://github.com/Dipesh-Gurung" class="no-underline">Github</a>
+</body>
+
+</html>
